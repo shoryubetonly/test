@@ -118,9 +118,9 @@ if (isset($_GET['delete_id']) && $userRole === 'admin') {
             <a href="index.php" class="nav-link"><span>📊</span> ภาพรวมระบบ</a>
             <a href="books.php" class="nav-link active"><span>📖</span> คลังหนังสือ</a>
             <a href="borrow.php" class="nav-link"><span>🔄</span> ยืม-คืนหนังสือ</a>
-            <a href="#" class="nav-link"><span>📜</span> ประวัติรายการ</a>
+            <a href="history.php" class="nav-link"><span>📜</span> ประวัติรายการ</a>
             <?php if($userRole === 'admin'): ?>
-                <a href="#" class="nav-link"><span>👥</span> จัดการสมาชิก</a>
+                <a href="users.php" class="nav-link"><span>👥</span> จัดการสมาชิก</a>
             <?php endif; ?>
         </div>
         <div class="user-profile">
